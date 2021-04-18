@@ -7,3 +7,36 @@ body{
     height: 100vh;
     background-size: cover;
 }
+
+ul{
+    list-style-type: none;
+    float:left;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: mediumseagreen;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color: paleturquoise;
+    color:whitesmoke;
+}
+
+ul li a.active a{
+    background-color: paleturquoise;
+    color:whitesmoke;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
